@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
-    descripcionCurso: 'BREVE_DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'El canto y la rítmica musical',
+    descripcionCurso:
+      'Tener los conocimientos teórico-prácticos básicos de una adecuada técnica vocal, como son la respiración, la articulación, la dicción, la vocalización, la fonación y la resonancia, ayudan a adquirir un canto afinado. Además, es importante saber que el ritmo, es la columna vertebral de la música que da forma, dirección y expresión a las composiciones musicales.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,27 +36,67 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Afinación',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Técnicas de afinación',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Técnicas y ejercicios interválicos de afinación',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Registros y tesituras vocales',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Ritmo',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Organización',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Duración',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Fraseo (frase musical)',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Técnicas de fraseo',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Técnicas de fraseo en un estándar musical',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Ejercicios rítmicos',
         desarrolloContenidos: true,
       },
     ],
@@ -86,7 +131,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CFA_51320102.zip',
       },
       {
         icono: 'fas fa-download',
@@ -102,28 +147,74 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '3. Ritmo',
+      referencia: 'Riversa, A. (2024). <em>Qué es el tempo.</em>',
+      tipo: 'Artículo web',
+      link: 'https://www.unprofesor.com/musica/que-es-el-tempo-301.html',
     },
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: 'Acento',
+      significado:
+        'es la fuerza o énfasis que se le pone a los sonidos que se hace con más fuerza.',
+    },
+    {
+      termino: 'Compás',
+      significado:
+        'es la ordenación de los pulsos fuertes y débiles. Los compases más usados están formados por dos, tres o cuatro pulsos (también llamados tiempos o partes). Según la distribución del acento se distribuyen en binarios, ternarios y cuaternarios.',
+    },
+    {
+      termino: 'Pulso',
+      significado:
+        'es la sensación regular y constante que se oye en la música, es como el latido interno de la música. Cuando se escucha una canción y se acompaña de forma espontánea, dando palmas con un ritmo regular, lo que se toca tocando es la pulsación.',
     },
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
+      referencia:
+        'Cordantonopulos, V. (2002). <em>Curso completo de Teoría de la Música.</em> ',
+      link: '',
+    },
+    {
+      referencia:
+        'Esperanza de vida (2016). Tutorial de voz: Fraseo- Respiración. [Archivo video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=XnMYUxcmggY',
+    },
+    {
+      referencia:
+        'Guiral, C. (2015). <em>Tutorial Técnica Vocal.</em> Afinación Vocal. [Archivo video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=pOOre89OTHA',
+    },
+    {
+      referencia:
+        'Justel, E. (s.f.). <em>El Santo Grial de los registros vocales.</em> ',
+      link: 'https://vox-technologies.com/blog/registros-vocales',
+    },
+    {
+      referencia:
+        'Latham, A. (2008). <em>Diccionario enciclopédico de la música.</em> Fondo de cultura económica. México ',
+      link: '',
+    },
+    {
+      referencia:
+        'Martín, L. (s.f.). <em>Taller de voz y vocalización.</em> Grupo de Formación en Narración Oral de la Universidad Nacional. Editorial Normas tejedores de historia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Miguel Manzo Vocal Studio. (2016). <em>Técnica Vocal - Que son el Grit, Fry, Falsetto, Aire, Growl. Consejos para Cantar Mejor.</em> [Archivo video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=eC5RxoWCXDI',
+    },
+    {
+      referencia:
+        'Soto, M. (2004). <em>Manual de técnica vocal, cultura general y ética profesional.</em> Conservatorio Nacional de Música. CONAMU. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Universidad Técnica Federico Santa María. (s.f.). <em>Teoría Musical.</em> ',
+      link: '',
     },
   ],
   creditos: [
@@ -131,7 +222,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
@@ -146,9 +237,34 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Nombre_rol',
-          centro: 'Nombre_centro_formación',
+          nombre: 'Claudia Rocío Varón Buitrago',
+          cargo: 'Senior equipo de adecuación',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Ángela Rocío Ortegón Merchán',
+          cargo: 'Experta temática',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Ángela Patricia Frasser Castaño',
+          cargo: 'Asesora pedagógica',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Genny Carolina Mora Rojas',
+          cargo: 'Guionista',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Jesús Bernardo Nova Ortiz',
+          cargo: 'Guionista',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -156,18 +272,28 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre_responsable',
+          nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Oscar Ivan Uribe Ortiz',
+          cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Animación y producción audiovisual',
+          nombre: 'Oscar Daniel Espitia Marín',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animador y productor audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -176,18 +302,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          nombre: 'PENDIENTE ASIGNAR',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Validación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Nombre_responsable',
-          cargo: 'Validación de recursos educativos digitales',
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],

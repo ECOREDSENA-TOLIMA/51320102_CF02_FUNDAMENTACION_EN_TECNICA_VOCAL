@@ -52,14 +52,32 @@
 .tabs-c__tab--active:before 
   border-top-color: #A21717
 
-  
-  
+@media (min-width: $bp-min-lg)
+  .tarjeta-avatar-b__img
+    min-width: 12% 
+  .tarjeta.color-primario-b2
+    width: 100%
+    margin-left: -6%
+    padding-left: 6%
+    
+.cajon.color-secundario
+  background-color: #D6F6F1
+
 .tarjeta.color-primario-a
   background-color: #DAC8F1
 
 .tarjeta.color-primario-b
   background-color: #EADFF7
   border-radius: 0
+.tarjeta.color-primario-b2
+  background-color: #EADFF7
+
+.tarjeta.color-primario-a1
+  background-color: #DAC8F1
+.tarjeta.color-primario-a2
+  background-color: #C2F1EA
+.tarjeta.color-primario-a3
+  background-color: #E0E5EF
 
 .tarjeta.color-secundario-a
   background-color: #C2F1EA
@@ -79,6 +97,12 @@
 .tarjeta.tarjeta-rosa
   background-color: #EADFF7
   border-radius: 0px
+
+.tarjeta.color-morado
+  background-color: #624B7E
+  *
+    color: #FFFFFF
+
 
 .lista-ol--cuadro__vineta
   background-color: #624B7E
@@ -141,3 +165,40 @@ li
 
 .acordion__activo
   background-color: #D6F6F1 !important
+
+
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      h4,h5
+        background-image: url('../assets/curso/temas/ico-down.svg')
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #EBD0EA
+    h4,h5
+      cursor: pointer
+      background-image: url('../assets/curso/temas/ico-up.svg')
+      background-repeat: no-repeat
+      padding-left: 1.8rem
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+  @media (max-width:$bp-max-xs)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.8em

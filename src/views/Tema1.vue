@@ -182,7 +182,7 @@
               ul.lista-ul.mb-0.ms-3
                 li 
                   i.fas.fa-check
-                  p En cuanto la afinación, se debe tener una nota de referencia en el piano, hay que elegir la mejor nota del alto médium, se procederá a cantar por semitonos en escala descendente, con la boca y la laringe distendidas y en una posición ligeramente “de bostezo”, emitiendo cada nota lo más próxima posible a la precedente y teniendo la sensación de cantarla aún más alta que esta.
+                  p En cuanto la afinación, se debe tener una nota de referencia en el piano, hay que elegir la mejor nota del alto #[em medium], se procederá a cantar por semitonos en escala descendente, con la boca y la laringe distendidas y en una posición ligeramente “de bostezo”, emitiendo cada nota lo más próxima posible a la precedente y teniendo la sensación de cantarla aún más alta que esta.
                 li 
                   i.fas.fa-check
                   p Empezar en la voz media y cantar subiendo y bajando por notas de grado conjunto; es decir, do-re-do, do-re-mi-re-do y así sucesivamente. Nunca forzar la voz.

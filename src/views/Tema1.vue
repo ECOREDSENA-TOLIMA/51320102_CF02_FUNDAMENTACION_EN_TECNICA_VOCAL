@@ -73,15 +73,15 @@
           li.mb-0.px-3.py-1
             i.fas.fa-play
             h4.mb-0 Ejemplo
-        p.mb-4 Para cantar en una tonalidad como do mayor, se debe saber cómo suena los grados conjuntos (nota por nota, sin saltos) de la escala de do mayor. (DO, RE, MI, FA, SOL, LA, SI, DO).
+        p.mb-4 Para cantar en una tonalidad como do mayor, se debe saber cómo suena los grados conjuntos (nota por nota, sin saltos) de la escala de do mayor. (do, re, mi, fa, sol, la, si, do).
      
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8.col-12
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Tonos musicales</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/fig-1a.png', alt='Figura que relaciona la ejemplificación de la entonación con los diferentes tonos musicales.')  
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig-1b.png', alt='Figura que relaciona la ejemplificación de la entonación con los diferentes tonos musicales.') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/fig-1a.svg', alt='Figura que relaciona la ejemplificación de la entonación con los diferentes tonos musicales.')  
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig-1b.svg', alt='Figura que relaciona la ejemplificación de la entonación con los diferentes tonos musicales.') 
 
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -203,7 +203,7 @@
               li
                 .lista-ol--cuadro__vineta
                   span 1
-                p.mb-0 Para empezar los ejercicios de intervalos es necesario tocar para escuchar y cantar en el piano o teclado intervalos por grados conjuntos de 2DA, 3RA, 4TA, 5TA descendiendo hasta do; por ejemplo: 2DA: DO-RE-DO, 3RA: DO-RE-MI-RE-DO, 4TA: DO-RE-MI-FA-MI-RE-DO, 5TA: DO-RE-MI-FA-SOL-FA-MI-RE-DO.
+                p.mb-0 Para empezar los ejercicios de intervalos es necesario tocar para escuchar y cantar en el piano o teclado intervalos por grados conjuntos de 2DA, 3RA, 4TA, 5TA descendiendo hasta do; por ejemplo: 2DA: do-re-do, 3RA: do-re-mi-re-do, 4TA: do-re-mi-fa-mi-re-do, 5TA: do-re-mi-fa-sol-fa-mi-re-do.
           .col-lg-10.mb-4(data-aos="zoom-in-down")
               figure.mb-2
                 img(src='@/assets/curso/temas/tema1/img-3A.png', alt='')
@@ -253,7 +253,7 @@
                 p.mb-0 Exagerar consonantes como la Ñ y colocando la voz nasal: ÑA, ÑE, ÑI, ÑO, ÑU y devolverse.
               li 
                 i.fas.fa-check
-                p.mb-0 Cuando se adquiera experiencia en los grados conjuntos, se pueden hacer ejercicios de afinación realizando intervalos de 2DA, 3RA, 4TA,5TA, 6TA, 7MA, a partir de la nota fundamental: DO-RE-DO, DO-MI-DO, DO-FA-DO, DO-SOL-DO, DO-LA-DO, DO-SI-DO.
+                p.mb-0 Cuando se adquiera experiencia en los grados conjuntos, se pueden hacer ejercicios de afinación realizando intervalos de 2DA, 3RA, 4TA,5TA, 6TA, 7MA, a partir de la nota fundamental: do-re-do, do-mi-do, do-fa-do, do-sol-do, do-la-do, do-si-do.
           .col-xl-5.col-12.col-lg-10.mb-4(data-aos="zoom-in-down")
             .titulo-sexto.color-acento-contenido
               p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Intervalos musicales</i>

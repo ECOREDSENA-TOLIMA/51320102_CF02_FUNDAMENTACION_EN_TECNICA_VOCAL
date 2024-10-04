@@ -59,8 +59,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Ejemplo de la ubicación del ámbito vocal de cada voz a partir del do4</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/fig-4a.svg', alt='Figura que relaciona la ubicación del do 4 en el piano, a partir de diferentes tipos de voz (soprano, contraalto, tenor y bajo).')  
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/fig-4b.svg', alt='Figura que relaciona la ubicación del do 4 en el piano, a partir de diferentes tipos de voz (soprano, contraalto, tenor y bajo).') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/fig-4a.svg', alt='Figura que relaciona la ubicación del do4 en el piano, a partir de diferentes tipos de voz (soprano, contraalto, tenor y bajo).')  
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/fig-4b.svg', alt='Figura que relaciona la ubicación del do4 en el piano, a partir de diferentes tipos de voz (soprano, contraalto, tenor y bajo).') 
 
     p.mb-5(data-aos="fade-right") A partir de los ejemplos anteriores de ubicación, es importante entender los siguientes aspectos del ámbito vocal de cada voz a partir del do4:
 

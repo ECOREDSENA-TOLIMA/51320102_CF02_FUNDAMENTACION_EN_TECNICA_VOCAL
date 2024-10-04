@@ -84,15 +84,15 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 Duración
 
-    p.mb-4(data-aos="fade-right") Es una de las cualidades del sonido, la cual indica la prolongación de un sonido en el tiempo y está representada gráficamente, por medio de las figuras de nota y los silencios. Al respecto, analice la siguiente tabla explicativa:
+    p.mb-4(data-aos="fade-right") Es una de las cualidades del sonido, la cual indica la prolongación de un sonido en el tiempo y está representada gráficamente, por medio de las figuras de nota y los silencios. Al respecto, analice la siguiente figura explicativa:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Figuras musicales</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig-5a.svg', alt='Tabla que relaciona el nombre de cada una de las figuras musicales (redonda, blanca, negra, corchea, semicorchea, fusa, semifusa), el símbolo que las representa, el silencio y el valor.')  
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig-5b.svg', alt='Tabla que relaciona el nombre de cada una de las figuras musicales (redonda, blanca, negra, corchea, semicorchea, fusa, semifusa), el símbolo que las representa, el silencio y el valor.') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/fig-5a.svg', alt='Figura que relaciona el nombre de cada una de las figuras musicales (redonda, blanca, negra, corchea, semicorchea, fusa, semifusa), el símbolo que las representa, el silencio y el valor.')  
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema3/fig-5b.svg', alt='Figura que relaciona el nombre de cada una de las figuras musicales (redonda, blanca, negra, corchea, semicorchea, fusa, semifusa), el símbolo que las representa, el silencio y el valor.') 
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10.col-12

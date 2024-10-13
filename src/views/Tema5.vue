@@ -9,7 +9,7 @@
 
     p.mb-4(data-aos="fade-right") Al conocerse los siguientes ejercicios rítmicos, se podrá tener el control de cada elemento en canto y baile:
 
-    .row.fondo-1.p-4.mb-4(data-aos="zoom-in-down")
+    .row.fondo-1.py-4.px-md-5.p-4.mb-4(data-aos="zoom-in-down")
       .col-lg-7.col-12.mb-4.col-lg-0.order-lg-1.order-2
         ul.lista-ul.mb-0
           li 
@@ -36,7 +36,7 @@
           li 
             i.fas.fa-check
             p.mb-2 Si es posible trabajar el ritmo de la canción por frases con una pareja, donde se toque con palmas el ritmo de la pregunta y que la otra persona responda el ritmo de la respuesta. Utilizar diferentes matices y velocidades. Por ejemplo:
-      .col-lg-4.col-8.order-lg-2.order-1
+      .col-lg-4.col-8.order-lg-2.order-1.d-none.d-lg-block 
         figure
           img(src='@/assets/curso/temas/tema5/img-1.png', alt='')
           

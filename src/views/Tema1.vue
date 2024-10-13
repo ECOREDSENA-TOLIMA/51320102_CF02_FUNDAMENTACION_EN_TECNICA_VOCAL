@@ -7,7 +7,7 @@
         span 1
       h1 Afinación
 
-    p.mb-4(data-aos="fade-right") Para iniciar, es importante primero que todo, definir y diferenciar lo que representa la afinación y la entonación.
+    p.mb-4(data-aos="fade-right") Para iniciar, es importante primero que todo, definir y diferenciar lo que representan la afinación y la entonación.
       
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
       .col-12
@@ -94,13 +94,13 @@
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Por descentralización")
             .col-12.mb-4.mb-lg-0
-            ul.lista-ul.mb-0.ms-3
-              li 
-                i.fas.fa-check
-                p Lo que se conoce como “columna de aire” se refiere a la dirección ascendente que tiene el aire dentro del cuerpo humano, en todo el proceso de la génesis del sonido. Por lo tanto, es necesario tener en cuenta todo el proceso de respiración, desde inspirar el aire proceso de espiración, retención del mismo en los pulmones formando un globo, el cual se infla empujando el diafragma hacia abajo y así mismo, lo vuelva a empujar haciendo que el aire se direccione y salga de forma ascendente hacia las cuerdas vocales. 
-              li 
-                i.fas.fa-check
-                p Cuando no se es consciente de practicar ejercicios de apoyo y control en el diafragma y la técnica de respiración es inadecuada, se evidencia que la centralización de la respiración es incorrecta; por lo tanto, se debe ejecutar una columna de aire firme, realizando ejercicios de apoyo y control de la respiración, para así mismo tener una correcta emisión de un sonido y debido control del mismo.
+              ul.lista-ul.mb-0.ms-3
+                li 
+                  i.fas.fa-check
+                  p Lo que se conoce como “columna de aire” se refiere a la dirección ascendente que tiene el aire dentro del cuerpo humano, en todo el proceso de la génesis del sonido. Por lo tanto, es necesario tener en cuenta todo el proceso de respiración, desde inspirar el aire proceso de espiración, retención del mismo en los pulmones formando un globo, el cual se infla empujando el diafragma hacia abajo y así mismo, lo vuelva a empujar haciendo que el aire se direccione y salga de forma ascendente hacia las cuerdas vocales. 
+                li 
+                  i.fas.fa-check
+                  p Cuando no se es consciente de practicar ejercicios de apoyo y control en el diafragma y la técnica de respiración es inadecuada, se evidencia que la centralización de la respiración es incorrecta; por lo tanto, se debe ejecutar una columna de aire firme, realizando ejercicios de apoyo y control de la respiración, para así mismo tener una correcta emisión de un sonido y debido control del mismo.
             .col-12
               figure
                 img(src='@/assets/curso/temas/tema1/img-2A.png', alt='')

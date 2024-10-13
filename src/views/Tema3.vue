@@ -27,7 +27,7 @@
         h4.text-center Acento
         p.mb-0 Es la fuerza o énfasis que se le pone a los sonidos que se hacen con más fuerza.
 
-    p.mb-4(data-aos="fade-right") De igual manera, se encuentra el tempo o agógica de velocidad a la que se ejecuta una pieza musical. Se señala tradicionalmente de dos maneras: con indicaciones metronómicas (como q = 70, que significa un tiempo de 70 negras o pulsos por minuto) y se divide en:
+    p.mb-5(data-aos="fade-right") De igual manera, se encuentra el tempo o agógica de velocidad a la que se ejecuta una pieza musical. Se señala tradicionalmente de dos maneras: con indicaciones metronómicas (como q = 70, que significa un tiempo de 70 negras o pulsos por minuto) y se divide en:
 
     .row.h-100.justify-content-center.mb-2(data-aos="zoom-in-down")
       .col-12.col-xl-6.mb-xl-0.mb-5
@@ -37,7 +37,7 @@
           .tarjeta.color-primario-b2
             .p-4
               h4 Velocidad constante
-              p Algunas como: adagio, lento; andante, no tan lento; allegretto, moderadamente rápido; allegro, lento; andante, menos lento; allegretto, algo rápido; allegro, rápido; presto, muy rápido.
+              p Algunas como: #[em adagio], lento; andante, no tan lento; #[em allegretto], moderadamente rápido; #[em allegro], lento; andante, menos lento; #[em allegretto], algo rápido; #[em allegro], rápido; presto, muy rápido.
       .col-12.col-xl-6.mb-xl-0.mb-5
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
@@ -45,13 +45,13 @@
           .tarjeta.color-primario-b2
             .p-4
               h4 Velocidad variable
-              p Algunos como: accelerando (accel.); acelerando-rallentando (rall.); retrasando-ritardando (rit.); retardando. 
+              p Algunos como: #[em accelerando (accel.)]; acelerando-#[em rallentando (rall.)]; retrasando-#[em ritardando (rit.)]; retardando. 
 
     Separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Organización
 
-    p.mb-4(data-aos="fade-right") De acuerdo a cómo se organiza el ritmo, se debe saber que el compás es la ordenación de los pulsos fuertes y débiles. Los compases más usados están formados por dos, tres o cuatro pulsos (también llamados tiempos o partes). Según la distribución del acento se asignan en:
+    p.mb-5(data-aos="fade-right") De acuerdo a cómo se organiza el ritmo, se debe saber que el compás es la ordenación de los pulsos fuertes y débiles. Los compases más usados están formados por dos, tres o cuatro pulsos (también llamados tiempos o partes). Según la distribución del acento se asignan en:
 
     TabsC.mb-5(data-aos="fade-down")
       .py-3.py-lg-5(titulo="Binario")
@@ -84,7 +84,7 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 Duración
 
-    p.mb-4(data-aos="fade-right") Es una de las cualidades del sonido, la cual indica la prolongación de un sonido en el tiempo y está representada gráficamente, por medio de las figuras de nota y los silencios. Al respecto, analice la siguiente figura explicativa:
+    p.mb-5(data-aos="fade-right") Es una de las cualidades del sonido, la cual indica la prolongación de un sonido en el tiempo y está representada gráficamente, por medio de las figuras de nota y los silencios. Al respecto, analice la siguiente figura explicativa:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10.col-12
@@ -99,7 +99,7 @@
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 La nota y los silencios representan la duración del sonido. Por eso, es fundamental para el aprendizaje de esta formación, conocer esta, que es una de las cualidades del sonido.
       
-    p.mb-4(data-aos="fade-right") Ahora bien, se invita a que conozca la siguiente ejemplificación de lo que representa una redonda:
+    p.mb-5(data-aos="fade-right") Ahora bien, se invita a que conozca la siguiente ejemplificación de lo que representa una redonda:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8.col-12

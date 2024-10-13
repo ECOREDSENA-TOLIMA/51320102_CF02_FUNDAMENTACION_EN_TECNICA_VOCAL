@@ -88,8 +88,8 @@
             p.mb-2 Entonar la canción por frases que se van uniendo hasta cantarla totalmente.
           li 
             i.fas.fa-check
-            p.mb-2 Cantar la canción o tema musical con diferentes velocidades (lento, adagio, allegro). Algunos términos de tempo (agógica) son:
-      .col-lg-3.col-6.order-lg-2.order-1(data-aos="zoom-in-down")
+            p.mb-2 Cantar la canción o tema musical con diferentes velocidades (lento, #[em adagio], #[em allegro]). Algunos términos de tempo (agógica) son:
+      .col-lg-3.col-6.mb-5.col-lg-0.order-lg-2.order-1(data-aos="zoom-in-down")
         figure
           img(src='@/assets/curso/temas/tema4/img-3.png', alt='')
       .col-lg-10.col-12.order-3.mt-3.mb-4
@@ -98,8 +98,8 @@
             .titulo-sexto.color-acento-contenido
               p.titulo.pb-0.mb-0 <b>Figura 9. </b> <i>Términos de tempo (agógica)</i>
             figure
-              img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema4/fig-9a.svg', alt='Figura que relaciona las normas a tener en cuenta con respecto a la higiene bucal, destacando entre ellas, la forma de cepillarse los dientes, el uso de utensilios en la boca, el tipo de alimentación a consumir y el tiempo de consulta al dentista por año, entre otros aspectos.')  
-              img.d-block.d-md-none(src='@/assets/curso/temas/tema4/fig-9b.svg', alt='Figura que relaciona las normas a tener en cuenta con respecto a la higiene bucal, destacando entre ellas, la forma de cepillarse los dientes, el uso de utensilios en la boca, el tipo de alimentación a consumir y el tiempo de consulta al dentista por año, entre otros aspectos.') 
+              img.d-none.d-sm-none.d-lg-block(src='@/assets/curso/temas/tema4/fig-9a.svg', alt='Figura que relaciona las normas a tener en cuenta con respecto a la higiene bucal, destacando entre ellas, la forma de cepillarse los dientes, el uso de utensilios en la boca, el tipo de alimentación a consumir y el tiempo de consulta al dentista por año, entre otros aspectos.')  
+              img.d-block.d-lg-none(src='@/assets/curso/temas/tema4/fig-9b.svg', alt='Figura que relaciona las normas a tener en cuenta con respecto a la higiene bucal, destacando entre ellas, la forma de cepillarse los dientes, el uso de utensilios en la boca, el tipo de alimentación a consumir y el tiempo de consulta al dentista por año, entre otros aspectos.') 
       .col-lg-10.col-12.mb-4.order-4
         ul.lista-ul.mb-0
           li 
@@ -111,8 +111,8 @@
             .titulo-sexto.color-acento-contenido
               p.titulo.pb-0.mb-0 <b>Figura 10. </b> <i>Términos de matices básicos</i>
             figure
-              img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema4/fig-10a.svg', alt='Figura que relaciona lo que es matiz e indica los términos de las diferentes matices y lo que representan.')  
-              img.d-block.d-md-none(src='@/assets/curso/temas/tema4/fig-10b.svg', alt='Figura que relaciona lo que es matiz e indica los términos de las diferentes matices y lo que representan.') 
+              img.d-none.d-sm-none.d-lg-block(src='@/assets/curso/temas/tema4/fig-10a.svg', alt='Figura que relaciona lo que es matiz e indica los términos de las diferentes matices y lo que representan.')  
+              img.d-block.d-lg-none(src='@/assets/curso/temas/tema4/fig-10b.svg', alt='Figura que relaciona lo que es matiz e indica los términos de las diferentes matices y lo que representan.') 
       .col-lg-10.col-12.mb-4.order-last
         ul.lista-ul.mb-0
           li 

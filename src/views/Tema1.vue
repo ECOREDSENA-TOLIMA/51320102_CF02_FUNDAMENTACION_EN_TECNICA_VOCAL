@@ -19,21 +19,21 @@
     p.mb-4(data-aos="fade-right") Es el proceso auditivo y vocal que se desarrolla al ajustar el tono (frecuencias sonoras o alturas) de un sonido, hasta que concuerde con una nota de referencia, en cualquier nota de una escala musical. 
 
     TabsC.mb-5(data-aos="fade-down")
-      .py-3.py-lg-5(titulo="Qué es estar afinado")
+      .py-3.py-lg-5(titulo="¿Qué es estar afinado?")
         .row.justify-content-center.px-lg-5.px-3
           .col-lg-5.col-10.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/temas/tema1/img-1A.png', alt='')
           .col-lg-7
-            h5 Qué es estar afinado
+            //- h5 Qué es estar afinado
             p Se considera estar afinado al escuchar y tener la habilidad de reproducir los sonidos, de acuerdo con la comprobación de uno o dos sonidos de referencia.
-      .py-3.py-lg-5(titulo="Cómo se logra")
+      .py-3.py-lg-5(titulo="¿Cómo se logra?")
         .row.justify-content-center.px-lg-5.px-3
           .col-lg-5.col-10.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/temas/tema1/img-1B.png', alt='')
           .col-lg-7
-            h5 Cómo se logra
+            //- h5 ¿Cómo se logra?
             p Para lograr afinación es necesario conocer la diferencia auditiva entre las notas, las cuales pueden ser naturales o alteradas como sostenidos o bemoles. Al mismo tiempo, se debe tener una técnica que ayude a “sostener” la emisión limpia y clara de la voz.
       .py-3.py-lg-5(titulo="Resonancia")
         .row.justify-content-center.px-lg-5.px-3
@@ -41,7 +41,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img-1C.png', alt='')
           .col-lg-7
-            h5 Resonancia
+            //- h5 Resonancia
             p Es importante tener en cuenta en dónde resonar la voz en el cuerpo (resonadores) y hacia dónde emitir la voz (direccionar).
       .py-3.py-lg-5(titulo="Ejemplo")
         .row.justify-content-center.px-lg-5.px-3
@@ -49,7 +49,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img-1D.png', alt='Imagen que relaciona la ejemplificación de la afinación por medio de los 440 Hertzios en el diapasón.')
           .col-lg-7
-            h5 Ejemplo
+            //- h5 Ejemplo
             p La nota La del diapasón está afinado con una frecuencia de 440 Hertzios (este sonido produce una vibración de cuatrocientas cuarenta y cuatro oscilaciones por segundo).
         
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
@@ -66,7 +66,7 @@
         ul.lista-ul--color.lista-title-b.mb-4
           li.mb-0.px-3.py-1
             i.fas.fa-play
-            h4.mb-0 Cómo se logra
+            h4.mb-0 ¿Cómo se logra?
         p.mb-4 El cantante debe escuchar los tonos de una escala musical para relacionar cada sonido con el eje central; es decir, el tono fundamental. 
      
         ul.lista-ul--color.lista-title-b.mb-4
@@ -212,7 +212,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 2
-                p.mb-0 Para afinar estos intervalos se puede empezar a escucharlos en grado conjunto y realizar glissandos (es subir rasgando la nota hasta encontrar la afinación), por ejemplo: do (glissandos) sol y regresarse a la nota do. Se recomienda ir subiendo por grados conjuntos y devolverse hasta la nota fundamental; es decir, la nota que se empezó.
+                p.mb-0 Para afinar estos intervalos se puede empezar a escucharlos en grado conjunto y realizar #[em glissandos] (es subir rasgando la nota hasta encontrar la afinación), por ejemplo: do (#[em glissandos]) sol y regresarse a la nota do. Se recomienda ir subiendo por grados conjuntos y devolverse hasta la nota fundamental; es decir, la nota que se empezó.
           .col-lg-10.mb-4(data-aos="zoom-in-down")
               figure.mb-2
                 img(src='@/assets/curso/temas/tema1/img-3B.png', alt='')

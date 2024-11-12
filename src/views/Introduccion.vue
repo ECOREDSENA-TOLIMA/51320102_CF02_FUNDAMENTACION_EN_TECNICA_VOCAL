@@ -11,7 +11,7 @@
 
     p.mb-4(data-aos="fade-right") ¡Para cantar afinado, lo primero que hay que hacer es arriesgarse, nadie nace aprendido! 
 
-    p.mb-5(data-aos="fade-right") El presente componente formativo, acerca un poco al aprendiz al proceso del canto, detallando aspectos relevantes que se requieren para llegar a este fin, de manera eficaz. Así que, para tener un poco de contexto de lo que se tratará, es importante que revise el siguiente video introductorio:
+    p.mb-5(data-aos="fade-right") El presente componente formativo acerca un poco al aprendiz al proceso del canto, detallando aspectos relevantes que se requieren para llegar a este fin, de manera eficaz. Así que, para tener un poco de contexto de lo que se tratará, es importante que revise el siguiente video introductorio:
 
     figure.mb-5(data-aos="zoom-in")
       .video

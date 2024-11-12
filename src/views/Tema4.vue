@@ -76,7 +76,7 @@
             p.mb-2 Cada tema musical se divide en estrofas y coro, en algunas ocasiones existe introducción y un final llamado coda. Es necesario que, al escogerse una canción o un tema musical, se debe escuchar y analizar, el cómo está dividida la forma para así mismo trabajarla por frases, semifrases y motivos rítmico-melódicos.
           li 
             i.fas.fa-check
-            p.mb-2 El fraseo musical es muy importante para el proceso de interpretación vocal, ya que en él se interpreta las dinámicas (volumen), la agógica (velocidad) y el carácter (expresión), de acuerdo al contenido del tema musical.
+            p.mb-2 El fraseo musical es muy importante para el proceso de interpretación vocal, ya que en él se interpretan las dinámicas (volumen), la agógica (velocidad) y el carácter (expresión), de acuerdo al contenido del tema musical.
           li 
             i.fas.fa-check
             p.mb-2 Escuchar el tema musical por varios intérpretes permite identificar qué clase de fraseo y rítmica se quiere realizar.
@@ -104,7 +104,7 @@
         ul.lista-ul.mb-0
           li 
             i.fas.fa-check
-            p.mb-2 Cantar la canción o tema musical variando matices o dinámicas. Por ejemplo, la primera frase (suave, fuerte), luego cambiar (fuerte, suave) o incrementado poco apoco el sonido (crescendo, de suave a fuerte) o disminuyendo la frase (decrescendo, fuerte a suave). Algunos términos de matices básicos son:
+            p.mb-2 Cantar la canción o tema musical variando matices o dinámicas. Por ejemplo, la primera frase (suave, fuerte), luego cambiar (fuerte, suave) o incrementado poco a poco el sonido (crescendo, de suave a fuerte) o disminuyendo la frase (decrescendo, fuerte a suave). Algunos términos de matices básicos son:
       .col-lg-10.col-12.order-5.mt-3.mb-4
         .row.justify-content-center.mb-5(data-aos="fade-down")
           .col-12

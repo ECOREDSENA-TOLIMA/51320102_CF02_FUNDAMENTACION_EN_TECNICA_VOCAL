@@ -78,7 +78,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/sl1-b.svg', alt='')
         h4.text-center Tesitura
-        p.mb-0 Para la música clásica, se define como una zona apta para el uso musical, sin que se esfuerce la voz. Esa es más pequeña que el ámbito y consiste de las notas que se pueden producir con una calidad apta para el uso musical.
+        p.mb-0 Para la música clásica, se define como una zona apta para el uso musical, sin que se esfuerce la voz. Esa es más pequeña que el ámbito y consiste en las notas que se pueden producir con una calidad apta para el uso musical.
       .col-lg.tarjeta.color-primario-a3.p-5
         .row.justify-content-center.mb-4
           .col-6

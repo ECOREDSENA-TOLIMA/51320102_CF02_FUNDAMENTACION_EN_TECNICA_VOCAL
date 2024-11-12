@@ -47,10 +47,10 @@
         .row.justify-content-center.px-lg-5.px-3
           .col-lg-5.col-10.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/temas/tema1/img-1D.png', alt='Imagen que relaciona la ejemplificación de la afinación por medio de los 440 Hertzios en el diapasón.')
+              img(src='@/assets/curso/temas/tema1/img-1D.png', alt='Imagen que relaciona la ejemplificación de la afinación por medio de los 440 Hercios en el diapasón.')
           .col-lg-7
             //- h5 Ejemplo
-            p La nota La del diapasón está afinado con una frecuencia de 440 Hertzios (este sonido produce una vibración de cuatrocientas cuarenta y cuatro oscilaciones por segundo).
+            p La nota La del diapasón está afinado con una frecuencia de 440 Hercios (este sonido produce una vibración de cuatrocientas cuarenta y cuatro oscilaciones por segundo).
         
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
       .col-12
@@ -124,7 +124,7 @@
                 img(src='@/assets/curso/temas/tema1/img-2C.png', alt='')
           .row(numero="4" titulo="Desafinación por exceso de aire")
             .col-12.mb-4.mb-lg-0
-              p Para poder hablar se enecita administrar el aire así mismo a la hora de cantar, se necesita más resistencia, pero se suele confundir la resistencia con la “cantidad de aire” que se necesita. El aire en el cuerpo en grandes cantidades, genera una presión, pues al tener mucha cantidad, se vuelve “incontrolable” y de esta manera al salir el sonido puede hacerlo desafinado. El sonido que buscado tiene que tener cuerpo y color, si no se controla mediante el apoyo y el control con el diafragma, la voz tiende a sonar gritada y a la vez desafinada.
+              p Para poder hablar se necesita administrar el aire así mismo a la hora de cantar, se necesita más resistencia, pero se suele confundir la resistencia con la “cantidad de aire” que se necesita. El aire en el cuerpo en grandes cantidades, genera una presión, pues al tener mucha cantidad, se vuelve “incontrolable” y de esta manera al salir el sonido puede hacerlo desafinado. El sonido que buscado tiene que tener cuerpo y color, si no se controla mediante el apoyo y el control con el diafragma, la voz tiende a sonar gritada y a la vez desafinada.
             .col-12
               figure
                 img(src='@/assets/curso/temas/tema1/img-2D.png', alt='')
